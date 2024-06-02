@@ -1,8 +1,8 @@
-[21:48:59] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/admintools-1.06.jar'...
-[21:48:59] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins/SimpleAdminGUI.jar'...
-[21:48:59] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins/SimpleAdminGUI.jar' in 738ms.
-[21:49:00] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/admintools-1.06.jar' in 795ms.
-[21:49:00] [ServerMain/ERROR]: [DirectoryProviderSource] Error loading plugin: Restricted name, cannot use 0x20 (space character) in a plugin name.
+[21:55:00] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/GUIAdminToolsFree 2.2.9.jar'...
+[21:55:00] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins/GUIAdminToolsFree 2.2.9 (1).jar'...
+[21:55:01] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/GUIAdminToolsFree 2.2.9.jar' in 919ms.
+[21:55:01] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins/GUIAdminToolsFree 2.2.9 (1).jar' in 923ms.
+[21:55:01] [ServerMain/ERROR]: [DirectoryProviderSource] Error loading plugin: Restricted name, cannot use 0x20 (space character) in a plugin name.
 org.bukkit.plugin.InvalidDescriptionException: Restricted name, cannot use 0x20 (space character) in a plugin name.
 	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProviderFactory.build(SpigotPluginProviderFactory.java:45) ~[paper-1.20.6.jar:1.20.6-130-5d8e53d]
 	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProviderFactory.build(SpigotPluginProviderFactory.java:28) ~[paper-1.20.6.jar:1.20.6-130-5d8e53d]
@@ -16,161 +16,149 @@ org.bukkit.plugin.InvalidDescriptionException: Restricted name, cannot use 0x20 
 	at org.bukkit.craftbukkit.Main.main(Main.java:328) ~[paper-1.20.6.jar:1.20.6-130-5d8e53d]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[21:49:06] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[21:49:09] [ServerMain/INFO]: Loaded 1175 recipes
-[21:49:09] [ServerMain/INFO]: Loaded 1276 advancements
-[21:49:09] [Server thread/INFO]: Starting minecraft server version 1.20.6
-[21:49:09] [Server thread/INFO]: Loading properties
-[21:49:09] [Server thread/INFO]: This server is running Paper version 1.20.6-130-master@5d8e53d (2024-06-01T14:32:53Z) (Implementing API version 1.20.6-R0.1-SNAPSHOT)
-[21:49:10] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[21:49:10] [Server thread/INFO]: Using 4 threads for Netty based IO
-[21:49:11] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[21:55:08] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[21:55:10] [ServerMain/INFO]: Loaded 1175 recipes
+[21:55:10] [ServerMain/INFO]: Loaded 1276 advancements
+[21:55:11] [Server thread/INFO]: Starting minecraft server version 1.20.6
+[21:55:11] [Server thread/INFO]: Loading properties
+[21:55:11] [Server thread/INFO]: This server is running Paper version 1.20.6-130-master@5d8e53d (2024-06-01T14:32:53Z) (Implementing API version 1.20.6-R0.1-SNAPSHOT)
+[21:55:11] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[21:55:11] [Server thread/INFO]: Using 4 threads for Netty based IO
+[21:55:13] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[21:49:11] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[21:49:12] [Server thread/INFO]: Default game type: SURVIVAL
-[21:49:12] [Server thread/INFO]: Generating keypair
-[21:49:12] [Server thread/INFO]: Starting Minecraft server on *:25565
-[21:49:12] [Server thread/INFO]: Using epoll channel type
-[21:49:12] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[21:49:12] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[21:49:12] [Server thread/INFO]: [AdminTools] Loading server plugin AdminTools v1.06
-[21:49:12] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[21:49:12] [Server thread/INFO]: Preparing level "world"
-[21:49:13] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[21:49:15] [Server thread/INFO]: Time elapsed: 2189 ms
-[21:49:15] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[21:49:16] [Server thread/INFO]: Time elapsed: 498 ms
-[21:49:16] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[21:49:16] [Server thread/INFO]: Time elapsed: 201 ms
-[21:49:16] [Server thread/INFO]: [AdminTools] Enabling AdminTools v1.06
-[21:49:16] [Server thread/INFO]: Running delayed init tasks
-[21:49:16] [Server thread/INFO]: Done (6.999s)! For help, type "help"
-[21:49:16] [Server thread/INFO]: Timings Reset
-[21:49:19] [User Authenticator #0/INFO]: UUID of player lucas2129 is 49ca0629-3956-45b1-bb51-6ba738cc0e5c
-[21:49:21] [Server thread/INFO]: lucas2129 joined the game
-[21:49:21] [Server thread/INFO]: lucas2129[/[0:0:0:0:0:0:0:1%0]:47658] logged in with entity id 22 at ([world]-36.5, 65.0, -53.5)
-[21:49:48] [Server thread/INFO]: Made lucas2129 a server operator
-[21:49:58] [Server thread/INFO]: lucas2129 issued server command: /admintools
-[21:50:23] [Server thread/INFO]: lucas2129: Please note that this command is not supported and may cause issues when using some plugins.
-[21:50:23] [Server thread/INFO]: lucas2129: If you encounter any issues please use the /stop command to restart your server.
-[21:50:23] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[21:50:23] [Server thread/INFO]: Using 4 threads for Netty based IO
-[21:50:23] [Server thread/INFO]: [AdminTools] Disabling AdminTools v1.06
-[21:50:23] [Server thread/INFO]: Admintools is disabled!
-[21:50:24] [Server thread/INFO]: Loaded 1175 recipes
-[21:50:24] [Server thread/INFO]: Loaded 1276 advancements
-[21:50:24] [Server thread/ERROR]: [DirectoryProviderSource] Error loading plugin: Restricted name, cannot use 0x20 (space character) in a plugin name.
-org.bukkit.plugin.InvalidDescriptionException: Restricted name, cannot use 0x20 (space character) in a plugin name.
-	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProviderFactory.build(SpigotPluginProviderFactory.java:45) ~[paper-1.20.6.jar:1.20.6-130-5d8e53d]
-	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProviderFactory.build(SpigotPluginProviderFactory.java:28) ~[paper-1.20.6.jar:1.20.6-130-5d8e53d]
-	at io.papermc.paper.plugin.provider.type.PluginFileType.register(PluginFileType.java:72) ~[paper-1.20.6.jar:1.20.6-130-5d8e53d]
-	at io.papermc.paper.plugin.provider.source.FileProviderSource.registerProviders(FileProviderSource.java:85) ~[paper-1.20.6.jar:1.20.6-130-5d8e53d]
-	at io.papermc.paper.plugin.provider.source.DirectoryProviderSource.registerProviders(DirectoryProviderSource.java:52) ~[paper-1.20.6.jar:1.20.6-130-5d8e53d]
-	at io.papermc.paper.plugin.provider.source.DirectoryProviderSource.registerProviders(DirectoryProviderSource.java:17) ~[paper-1.20.6.jar:1.20.6-130-5d8e53d]
-	at io.papermc.paper.plugin.util.EntrypointUtil.registerProvidersFromSource(EntrypointUtil.java:15) ~[paper-1.20.6.jar:1.20.6-130-5d8e53d]
-	at io.papermc.paper.plugin.PluginInitializerManager.load(PluginInitializerManager.java:109) ~[paper-1.20.6.jar:1.20.6-130-5d8e53d]
-	at io.papermc.paper.plugin.PluginInitializerManager.reload(PluginInitializerManager.java:122) ~[paper-1.20.6.jar:1.20.6-130-5d8e53d]
-	at org.bukkit.craftbukkit.CraftServer.reload(CraftServer.java:1091) ~[paper-1.20.6.jar:1.20.6-130-5d8e53d]
-	at org.bukkit.Bukkit.reload(Bukkit.java:1023) ~[paper-api-1.20.6-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:59) ~[paper-api-1.20.6-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:164) ~[paper-api-1.20.6-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:964) ~[paper-1.20.6.jar:1.20.6-130-5d8e53d]
-	at org.bukkit.craftbukkit.entity.CraftPlayer.performCommand(CraftPlayer.java:767) ~[paper-1.20.6.jar:1.20.6-130-5d8e53d]
-	at admintools-1.06.jar/vb.$admintools.PluginMain.onGUIClick(PluginMain.java:560) ~[admintools-1.06.jar:?]
-	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor1.execute(Unknown Source) ~[?:?]
-	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-api-1.20.6-R0.1-SNAPSHOT.jar:?]
-	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:81) ~[paper-api-1.20.6-R0.1-SNAPSHOT.jar:1.20.6-130-5d8e53d]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.20.6-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.20.6.jar:1.20.6-130-5d8e53d]
-	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.20.6.jar:1.20.6-130-5d8e53d]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:627) ~[paper-api-1.20.6-R0.1-SNAPSHOT.jar:?]
-	at admintools-1.06.jar/vb.$admintools.GUIManager.onInventoryClick(GUIManager.java:39) ~[admintools-1.06.jar:?]
-	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor4.execute(Unknown Source) ~[?:?]
-	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-api-1.20.6-R0.1-SNAPSHOT.jar:?]
-	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:81) ~[paper-api-1.20.6-R0.1-SNAPSHOT.jar:1.20.6-130-5d8e53d]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.20.6-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.20.6.jar:1.20.6-130-5d8e53d]
-	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.20.6.jar:1.20.6-130-5d8e53d]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:627) ~[paper-api-1.20.6-R0.1-SNAPSHOT.jar:?]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleContainerClick(ServerGamePacketListenerImpl.java:3177) ~[paper-1.20.6.jar:1.20.6-130-5d8e53d]
-	at net.minecraft.network.protocol.game.ServerboundContainerClickPacket.handle(ServerboundContainerClickPacket.java:69) ~[paper-1.20.6.jar:1.20.6-130-5d8e53d]
-	at net.minecraft.network.protocol.game.ServerboundContainerClickPacket.handle(ServerboundContainerClickPacket.java:33) ~[paper-1.20.6.jar:1.20.6-130-5d8e53d]
-	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:55) ~[paper-1.20.6.jar:1.20.6-130-5d8e53d]
-	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.20.6.jar:1.20.6-130-5d8e53d]
-	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151) ~[paper-1.20.6.jar:1.20.6-130-5d8e53d]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.20.6.jar:1.20.6-130-5d8e53d]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1511) ~[paper-1.20.6.jar:1.20.6-130-5d8e53d]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:195) ~[paper-1.20.6.jar:1.20.6-130-5d8e53d]
-	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:125) ~[paper-1.20.6.jar:1.20.6-130-5d8e53d]
-	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1488) ~[paper-1.20.6.jar:1.20.6-130-5d8e53d]
-	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1411) ~[paper-1.20.6.jar:1.20.6-130-5d8e53d]
-	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:135) ~[paper-1.20.6.jar:1.20.6-130-5d8e53d]
-	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1377) ~[paper-1.20.6.jar:1.20.6-130-5d8e53d]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1238) ~[paper-1.20.6.jar:1.20.6-130-5d8e53d]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[paper-1.20.6.jar:1.20.6-130-5d8e53d]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[21:50:24] [Paper Async Command Builder Thread Pool - 0/ERROR]: Caught previously unhandled exception :
-[21:50:24] [Paper Async Command Builder Thread Pool - 0/ERROR]: Paper Async Command Builder Thread Pool - 0
-java.util.ConcurrentModificationException: null
-	at java.base/java.util.LinkedHashMap$LinkedHashIterator.nextNode(LinkedHashMap.java:1023) ~[?:?]
-	at java.base/java.util.LinkedHashMap$LinkedValueIterator.next(LinkedHashMap.java:1052) ~[?:?]
-	at net.minecraft.commands.Commands.fillUsableCommands(Commands.java:542) ~[paper-1.20.6.jar:1.20.6-130-5d8e53d]
-	at net.minecraft.commands.Commands.sendAsync(Commands.java:501) ~[paper-1.20.6.jar:1.20.6-130-5d8e53d]
-	at net.minecraft.commands.Commands.lambda$sendCommands$6(Commands.java:480) ~[paper-1.20.6.jar:1.20.6-130-5d8e53d]
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[21:50:25] [Server thread/INFO]: [AdminTools] Loading server plugin AdminTools v1.06
-[21:50:25] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[21:50:25] [Server thread/INFO]: [AdminTools] Enabling AdminTools v1.06
-[21:50:25] [Server thread/INFO]: lucas2129: Reload complete.
-[21:50:25] [Server thread/INFO]: Timings Reset
-[21:50:52] [Server thread/INFO]: lucas2129 issued server command: /admintools
-[21:51:02] [Server thread/INFO]: [lucas2129: Set own game mode to Creative Mode]
-[21:52:09] [Server thread/INFO]: lucas2129 issued server command: /reload permissions commands
-[21:52:09] [Server thread/INFO]: lucas2129: Are you sure you wish to reload your server? Doing so may cause bugs and memory leaks. It is recommended to restart instead of using /reload. To confirm, please type /reload confirm
-[21:52:19] [Server thread/INFO]: lucas2129 issued server command: /reload permissions
-[21:52:19] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[21:52:19] [Server thread/INFO]: lucas2129: Permissions successfully reloaded.
-[21:52:40] [Server thread/INFO]: lucas2129 issued server command: /reload GUIAdminToolsFree 2.2.9.jar
-[21:52:40] [Server thread/INFO]: lucas2129: Are you sure you wish to reload your server? Doing so may cause bugs and memory leaks. It is recommended to restart instead of using /reload. To confirm, please type /reload confirm
-[21:52:44] [Server thread/INFO]: lucas2129 issued server command: /reload GUIAdminToolsFree 2.2.9
-[21:52:44] [Server thread/INFO]: lucas2129: Are you sure you wish to reload your server? Doing so may cause bugs and memory leaks. It is recommended to restart instead of using /reload. To confirm, please type /reload confirm
-[21:52:48] [Server thread/INFO]: lucas2129 issued server command: /reload GUIAdminToolsFree 2.2.9
-[21:52:48] [Server thread/INFO]: lucas2129: Are you sure you wish to reload your server? Doing so may cause bugs and memory leaks. It is recommended to restart instead of using /reload. To confirm, please type /reload confirm
-[21:53:02] [Server thread/INFO]: lucas2129 issued server command: /plugins GUIAdminToolsFree 2.2.9
-[21:53:08] [Server thread/INFO]: lucas2129 issued server command: /version AdminTools
-[21:53:29] [Server thread/INFO]: lucas2129 issued server command: /at
-[21:53:56] [Server thread/INFO]: lucas2129 issued server command: /admin
-[21:54:00] [Server thread/INFO]: lucas2129 issued server command: /admint
-[21:54:24] [Server thread/INFO]: Stopping the server
-[21:54:24] [Server thread/INFO]: Stopping server
-[21:54:24] [Server thread/INFO]: [AdminTools] Disabling AdminTools v1.06
-[21:54:24] [Server thread/INFO]: Admintools is disabled!
-[21:54:24] [Server thread/INFO]: Saving players
-[21:54:24] [Server thread/INFO]: lucas2129 lost connection: Server closed
-[21:54:24] [Server thread/INFO]: lucas2129 left the game
-[21:54:24] [Server thread/INFO]: Saving worlds
-[21:54:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[21:54:24] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[21:54:24] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[21:54:24] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[21:54:27] [Server thread/INFO]: [ChunkHolderManager] Saved 2267 block chunks, 661 entity chunks, 5 poi chunks in world 'world' in 2.84s
-[21:54:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[21:54:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[21:54:27] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[21:54:27] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[21:54:27] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[21:54:27] [Server thread/INFO]: [ChunkHolderManager] Saved 3 block chunks, 1 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
-[21:54:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[21:54:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[21:54:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[21:54:28] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[21:54:28] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[21:54:28] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[21:54:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[21:54:28] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[21:54:28] [Server thread/INFO]: Flushing Chunk IO
-[21:54:28] [Server thread/INFO]: Closing Thread Pool
-[21:54:28] [Server thread/INFO]: Closing Server
+[21:55:13] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[21:55:13] [Server thread/INFO]: Default game type: SURVIVAL
+[21:55:13] [Server thread/INFO]: Generating keypair
+[21:55:13] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:55:13] [Server thread/INFO]: Using epoll channel type
+[21:55:13] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[21:55:13] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[21:55:13] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Ambiguous plugin name 'GUIAdminTools' for files 'plugins/.paper-remapped/GUIAdminToolsFree 2.2.9 (1).jar' and 'plugins/.paper-remapped/GUIAdminToolsFree 2.2.9.jar' in 'plugins/.paper-remapped'
+[21:55:13] [Server thread/INFO]: [AdminTools] Loading server plugin AdminTools v1.06
+[21:55:13] [Server thread/INFO]: [GUIAdminTools] Loading server plugin GUIAdminTools v2.2.9
+[21:55:13] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[21:55:13] [Server thread/INFO]: Preparing level "world"
+[21:55:14] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:55:16] [Server thread/INFO]: Time elapsed: 2240 ms
+[21:55:16] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[21:55:17] [Server thread/INFO]: Time elapsed: 384 ms
+[21:55:17] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[21:55:17] [Server thread/INFO]: Time elapsed: 296 ms
+[21:55:17] [Server thread/INFO]: [AdminTools] Enabling AdminTools v1.06
+[21:55:17] [Server thread/INFO]: [GUIAdminTools] Enabling GUIAdminTools v2.2.9
+[21:55:17] [Server thread/INFO]: -----GUI ADMIN TOOLS FREE-----
+[21:55:17] [Server thread/INFO]:  
+[21:55:17] [Server thread/INFO]: VERSION: 2.2.9
+[21:55:17] [Server thread/INFO]:  
+[21:55:17] [Server thread/INFO]: LOADING ALL SERVICES...
+[21:55:17] [Server thread/INFO]: [GUIAdminTools] [STDOUT] Created folder
+[21:55:17] [Server thread/WARN]: Nag author(s): '[]' of 'GUIAdminTools v2.2.9' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[21:55:17] [Server thread/INFO]: LOADED ALL SERVICES
+[21:55:17] [Server thread/INFO]:  
+[21:55:17] [Server thread/INFO]: LOADED METRICS
+[21:55:17] [Server thread/INFO]:  
+[21:55:17] [Server thread/INFO]: -----GUI ADMIN TOOLS FREE-----
+[21:55:17] [Server thread/INFO]: Running delayed init tasks
+[21:55:17] [Server thread/INFO]: Done (6.873s)! For help, type "help"
+[21:55:17] [Server thread/INFO]: Timings Reset
+[21:55:18] [Craft Scheduler Thread - 3 - GUIAdminTools/INFO]: [GUIAdminTools] There is not a new update available.
+[21:55:29] [User Authenticator #0/INFO]: UUID of player lucas2129 is 49ca0629-3956-45b1-bb51-6ba738cc0e5c
+[21:55:31] [Server thread/INFO]: [GUIAdminTools] [STDOUT] Created new file
+[21:55:31] [Server thread/INFO]: lucas2129 joined the game
+[21:55:31] [Server thread/INFO]: lucas2129[/[0:0:0:0:0:0:0:1%0]:43510] logged in with entity id 100 at ([world]-51.61499185883929, 69.31561893194362, -27.71719374598167)
+[21:55:38] [Server thread/INFO]: lucas2129 issued server command: /admin
+[21:56:19] [Server thread/INFO]: lucas2129 issued server command: /fly
+[21:56:35] [Server thread/INFO]: lucas2129 issued server command: /fly
+[21:56:48] [Server thread/INFO]: lucas2129 issued server command: /fly @a
+[21:56:56] [Server thread/INFO]: lucas2129 issued server command: /fly lucas2129
+[21:57:09] [Server thread/INFO]: lucas2129 issued server command: /fly lucas2129
+[21:57:19] [Server thread/INFO]: lucas2129 issued server command: /fly lucas2129
+[21:57:23] [Server thread/INFO]: lucas2129 issued server command: /fly lucas2129
+[21:57:57] [Server thread/INFO]: lucas2129 issued server command: /fly lucas2129
+[21:58:09] [Server thread/INFO]: lucas2129 issued server command: /fly lucas2129
+[21:58:28] [Server thread/INFO]: lucas2129 issued server command: /admin
+[21:59:12] [Server thread/INFO]: lucas2129 issued server command: /servermanager oila
+[22:00:00] [Server thread/INFO]: lucas2129 issued server command: /servermanager oila
+[22:00:32] [Server thread/INFO]: lucas2129 issued server command: /gm
+[22:00:52] [Server thread/INFO]: lucas2129 issued server command: /gm
+[22:01:44] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[22:01:53] [Server thread/INFO]: lucas2129 died
+[22:02:06] [Server thread/INFO]: lucas2129 issued server command: /admintools
+[22:02:21] [Server thread/INFO]: lucas2129 issued server command: /admintools
+[22:02:33] [Server thread/INFO]: lucas2129 issued server command: /gm
+[22:03:03] [Server thread/INFO]: lucas2129 issued server command: /guiadmintools:gm
+[22:03:17] [Server thread/INFO]: lucas2129 issued server command: /admin gm
+[22:03:26] [Server thread/INFO]: lucas2129 issued server command: /admin
+[22:03:37] [Server thread/INFO]: lucas2129 issued server command: /guiadmintools
+[22:03:50] [Server thread/INFO]: lucas2129 issued server command: /admin
+[22:03:56] [Server thread/INFO]: lucas2129 issued server command: /admint
+[22:04:05] [Server thread/INFO]: lucas2129 issued server command: /at
+[22:04:14] [Server thread/INFO]: lucas2129 issued server command: /at mg
+[22:06:20] [Server thread/INFO]: lucas2129 issued server command: /at mg
+[22:06:34] [Server thread/INFO]: lucas2129 issued server command: /gm
+[22:06:41] [Server thread/INFO]: lucas2129 issued server command: /gm survival
+[22:06:45] [Server thread/INFO]: lucas2129 issued server command: /gm survival
+[22:06:51] [Server thread/INFO]: lucas2129 issued server command: /gm
+[22:06:59] [Server thread/INFO]: lucas2129 issued server command: /gm creative
+[22:07:16] [Server thread/INFO]: lucas2129 issued server command: /function
+[22:07:22] [Server thread/INFO]: lucas2129 issued server command: /function
+[22:07:43] [Server thread/INFO]: lucas2129 issued server command: /rl
+[22:07:43] [Server thread/INFO]: lucas2129: Are you sure you wish to reload your server? Doing so may cause bugs and memory leaks. It is recommended to restart instead of using /reload. To confirm, please type /reload confirm
+[22:07:52] [Server thread/INFO]: lucas2129 issued server command: /rl permissions
+[22:07:52] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[22:07:52] [Server thread/INFO]: lucas2129: Permissions successfully reloaded.
+[22:08:21] [Server thread/INFO]: lucas2129 issued server command: /ver GUIAdminTools
+[22:09:38] [Server thread/INFO]: lucas2129 issued server command: /ride @s dismount
+[22:09:51] [Server thread/INFO]: lucas2129 issued server command: /ride @s mount @s 1
+[22:09:54] [Server thread/INFO]: lucas2129 issued server command: /ride @s mount @s
+[22:10:20] [Server thread/INFO]: lucas2129 issued server command: /ride @s mount @s[ distance=1]
+[22:10:28] [Server thread/INFO]: lucas2129 issued server command: /ride @s mount @s
+[22:11:12] [Server thread/INFO]: lucas2129 issued server command: /recipe take @s minecraft:acacia_button
+[22:11:18] [Server thread/INFO]: lucas2129 issued server command: /recipe take @s minecraft:acacia_button
+[22:11:34] [Server thread/INFO]: lucas2129 issued server command: /recipe take @a minecraft:acacia_chest_boat
+[22:11:48] [Server thread/INFO]: lucas2129 issued server command: /recipe give @a minecraft:acacia_button
+[22:11:48] [Server thread/INFO]: [lucas2129: Unlocked 1 recipes for lucas2129]
+[22:12:00] [Server thread/INFO]: lucas2129 issued server command: /recipe give @a
+[22:12:09] [Server thread/INFO]: lucas2129 issued server command: /recipe give @a *
+[22:12:09] [Server thread/INFO]: [lucas2129: Unlocked 1175 recipes for lucas2129]
+[22:12:32] [Server thread/INFO]: lucas2129 issued server command: /recipe take @a *
+[22:12:32] [Server thread/INFO]: [lucas2129: Took 1175 recipes from lucas2129]
+[22:12:43] [Server thread/INFO]: lucas2129 issued server command: /recipe
+[22:12:46] [Server thread/INFO]: lucas2129 issued server command: /recipe give @a *
+[22:12:46] [Server thread/INFO]: [lucas2129: Unlocked 1175 recipes for lucas2129]
+[22:13:17] [Server thread/INFO]: lucas2129 issued server command: /repairitems lucas2129
+[22:13:43] [Server thread/INFO]: lucas2129 issued server command: /restart lucas2129
+[22:13:43] [Server thread/INFO]: [STDOUT] [org.spigotmc.RestartCommand] Startup script './start.sh' does not exist! Stopping server.
+[22:13:43] [Server thread/INFO]: lucas2129 lost connection: Server is restarting
+[22:13:43] [Server thread/INFO]: lucas2129 left the game
+[22:13:43] [Server thread/INFO]: Stopping server
+[22:13:43] [Server thread/INFO]: [GUIAdminTools] Disabling GUIAdminTools v2.2.9
+[22:13:43] [Server thread/INFO]: [GUIAdminTools] [STDOUT] Stop...
+[22:13:43] [Server thread/WARN]: Nag author(s): '[]' of 'GUIAdminTools v2.2.9' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[22:13:43] [Server thread/INFO]: [AdminTools] Disabling AdminTools v1.06
+[22:13:43] [Server thread/INFO]: Admintools is disabled!
+[22:13:43] [Server thread/INFO]: Saving players
+[22:13:43] [Server thread/INFO]: Saving worlds
+[22:13:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22:13:43] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[22:13:43] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[22:13:43] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[22:13:45] [Server thread/INFO]: [ChunkHolderManager] Saved 1232 block chunks, 276 entity chunks, 0 poi chunks in world 'world' in 1.27s
+[22:13:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22:13:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[22:13:45] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[22:13:45] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[22:13:45] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[22:13:45] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 1 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[22:13:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:13:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[22:13:45] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[22:13:45] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[22:13:45] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[22:13:45] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[22:13:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:13:45] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[22:13:45] [Server thread/INFO]: Flushing Chunk IO
+[22:13:45] [Server thread/INFO]: Closing Thread Pool
+[22:13:45] [Server thread/INFO]: Closing Server
